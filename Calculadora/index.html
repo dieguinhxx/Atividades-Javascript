@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Calculadora</h1>
+    <script src="script.js"></script>
+
+    <form name="form1" method="post" action="index.html">
+        <label for="v1">Valor 1</label><br>
+        <input type="text" name="v1" id="v1" size="15" maxlength="10"> <br>
+        <label for="v2">Valor 2</label> <br>
+    <input type="text" name="v2" id="v2" size="15" maxlength="10"> <br>
+    Operaçoes <br>
+    <input type="radio" name="op" value="ad" >Adição<br>
+    <input type="radio" name="op" value="su" >Subtração<br>
+    <input type="radio" name="op" value="mu" >Multiplicação<br>
+    <input type="radio" name="op" value="di" >Divisão<br>
+        <label for="res">resultado</label> <br>
+        <input type="text" name="res" id="res" size="15" maxlength="10"> <br>
+    <input type="button" name="calcular" value="Calcular" onclick="calculadora()">
+        <input type="reset" name="limpar" value="limpar">
+    </form>
+</body>
+</html>
